@@ -129,7 +129,7 @@
         ?>
                 <div class="box">
                     <img src="image/<?php echo $fetch_voyage['image']; ?>">
-                    <p>price:$<?php echo $fetch_voyage['price'];?></p>
+                    <p>prices:$<?php echo $fetch_voyage['price'];?></p>
                     <h4><?php echo $fetch_voyage['destination'];?></h4>
                     <details><?php echo $fetch_voyage['description'];?></details>
                     <a href="admin_voyage.php?edit=<?php echo $fetch_voyage['voyage_id'];?>" class="edit">edit</a>
