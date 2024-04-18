@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --box-shadow:0px 0px 0px 6px #3e5287;
+    --blue: #3e5287;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+ .btn{
+    padding: .8rem 2,5rem;
+    text-transform:upper-case;
+    background: var(--blue);
+    border-radius: 10px ;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background:rgba(0, 0, 0, 0.42) ;
+ }
+ .title{
+    text-align:center;
+    margin-bottom: 1rem;
+ }
+ .title h1{
+    font-size: 3rem;
+
+ }
+ .title span{
+    font-size: 1.2rem ;
+    text-transform: uppercase;
+    line-height: 2;
+    color:var(--blue)
+
+ }
+
+ .video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+
+}
+input,button,textarea{
+    outline:none;
+    border:1px solid #55555544;
+    background: white;
+    width: 100%;
+    padding : 1rem 1.5rem;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+button{
+    cursor:pointer;
+}
+input[type=submit]{
+    cursor : pointer-events ;
+}
+/*-----------form container-----------*/
+.form-container {
+    background:rgba(128, 128, 128, 0.477);
+    width:50%;
+    height:93%;
+    
+    padding: 3rem 8rem;
+    /*margin-top:   20px;
+    margin-left: 25px;*/
+    position:relative;
+    
+  
+}
+/*.form-container::before{
+    content: '';
+    position: absolute;
+    top:-5%;
+    left:-10px;
+    width: 255px;
+    height: 650px;
+    background-size: 255px;
+    background-repeat: no-repeat;
+    z-index:100;
+
+}
+.form-container::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 255px;
+    height: 220px;
+    background-size: 255px;
+    background-repeat: no-repeat;
+    z-index:1;
+
+}
+*/
+
+.form-container h1{
+    text-transform: uppercase;
+    margin:2rem 0;
+    font-size: 2,3;
+    text-align:center;
+}
+.form-container form label{
+    text-transform: lowercase;
+    width: 85%;
+}
+.form-container form input{
+   
+    width: 85%;
+}
+.form-container form textarea{
+    width: 85%;
+    background: black;
+    border: none;
+
+}
+
+
+
